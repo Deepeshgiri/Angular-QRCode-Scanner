@@ -44,11 +44,12 @@
     "name": "Weblineindia"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "@angular/common": "^9.0.0 <10",
-    "@angular/core": "^9.0.0 <10",
-    "rxjs": "^6.5.4"
-  },
+ "peerDependencies": {
+  "@angular/common": ">=9.0.0 <20.0.0",
+  "@angular/core": ">=9.0.0 <20.0.0",
+  "rxjs": "^6.5.4 || ^7.0.0"
+},
+
   "private": false,
   "sideEffects": false,
   "typings": "zxing-ngx-scanner.d.ts",
